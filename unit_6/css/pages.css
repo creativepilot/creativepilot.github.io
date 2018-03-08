@@ -1,0 +1,42 @@
+
+nav {
+    width: 40%;
+    text-align: center;
+    margin: auto;
+    padding: 1em 0em 1em 0em;
+    position: relative;
+}
+
+nav a {
+	text-decoration: none;
+	font-family: 'Noto Serif', serif;
+	font-size: 20px;
+	font-weight: normal;
+	text-align: center;
+	color: #000000;
+	padding: 0;
+	display: inline-block;
+}
+
+
+ a:hover {
+	color: #AAAAAA;
+}
+
+a span {
+	color: #000000;
+	hover: none;
+}
+
+p {
+	text-transform: none;
+	margin: auto;
+	padding: 2em;
+}
+
+footer {
+	text-align: center;
+	position: relative;
+
+}
+
