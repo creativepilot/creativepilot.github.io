@@ -14,7 +14,7 @@ body {
 .hero {
 	/* height adjusted and position: relative  */
 	height: 50.000em;
-	width: 100%;
+	max-width: 100%;
 	background-repeat: no-repeat;
 	background-size: cover;
 	overflow: hidden;
@@ -260,7 +260,9 @@ nav a {
 }
 
 .hero {
+	max-width: 100%;
 	height: 25.000em;
+	margin: 0;
 }
 
 
