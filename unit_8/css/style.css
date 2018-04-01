@@ -249,7 +249,7 @@ nav {
 	position: absolute;
 	width: 100%;
 	padding: 0;
-	margin-right: 2em;
+	margin-right: .5em;
 	top: 0;
 	display: inline-block;
 }
@@ -257,6 +257,10 @@ nav {
 nav a {
 	display: inline-block;
 	margin: auto 0;
+}
+
+.hero {
+	height: 25.000em;
 }
 
 
@@ -274,7 +278,7 @@ nav a {
 	display: block;
 	margin: 0 auto;
     line-height: 1.6em;
-    padding-top: 1em;
+    padding-top: .5em;
 }
 
 #left {
