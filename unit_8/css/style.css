@@ -9,6 +9,7 @@ body {
 	background: #F2FFF6;
 	font-family: 'Noto Sans', sans-serif;
 	font-size: 1em;
+	overflow-x: hidden;
 }
 
 .hero {
@@ -197,13 +198,14 @@ h2 {
 }
 
 .chocolat-parent {
-	width: 100%;
-    margin-left: 0 auto;
-    margin-right: 0 auto;
+    width:110vw !important;
     display: block;
-    float: left;
     text-align: center;
     object-fit: cover;
+    position: relative;
+    left: -4em;
+    padding-left: 0;
+    padding-right: 0;
 
     }
 }
@@ -211,10 +213,9 @@ h2 {
 
 .chocolat-image {
 	width: 100%;
-	margin: .1em .2em 0 .2em;
-	float: left;
+	margin: .1em .2em 0;
 	display: block;
-	align-content: center;
+	text-align: center;
 	object-fit: cover;
 
 }
@@ -310,18 +311,19 @@ h2 {
 
 
 .chocolat-parent {
-    margin: 0 auto;
-    padding: 0;
-  	text-align: center;
-  	min-width: 100%;
-  	object-fit: cover;
-  	position: relative;
+ 	width:124vw !important;
+    display: block;
+    text-align: center;
+    object-fit: cover;
+    position: relative;
+    left: -4.0em;
+    padding-left: 0;
+    padding-right: 0;
 
 }
 
 .chocolat-image {
 	width: 100%;
-	margin: 0 auto;
 	object-fit: cover;
 
 	
