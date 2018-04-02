@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Convergence|Cormorant+Infant|Fjord+One|Frank+Ruhl+Libre|Judson|Leckerli+One|Noto+Sans|Noto+Serif|Permanent+Marker|Shrikhand');
 
 * {
-	margin: 0;
+	margin: 0 auto;
 	box-sizing: border-box;	
 }
 
@@ -197,12 +197,13 @@ h2 {
 }
 
 .chocolat-parent {
-	max-width: 100%;
+	width: 100%;
     margin-left: 0 auto;
     margin-right: 0 auto;
     display: block;
     float: left;
     text-align: center;
+    object-fit: cover;
 
     }
 }
@@ -214,6 +215,7 @@ h2 {
 	float: left;
 	display: block;
 	align-content: center;
+	object-fit: cover;
 
 }
 
@@ -311,15 +313,23 @@ h2 {
     margin: 0 auto;
     padding: 0;
   	text-align: center;
-  	width: 100%;
+  	min-width: 100%;
+  	object-fit: cover;
+  	position: relative;
 
 }
 
 .chocolat-image {
 	width: 100%;
 	margin: 0 auto;
+	object-fit: cover;
 
 	
+}
+
+.chocolat-parent a {
+	object-fit: cover;
+	width: 100%;
 }
 
 
