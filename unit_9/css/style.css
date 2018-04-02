@@ -1,0 +1,352 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Convergence|Cormorant+Infant|Fjord+One|Frank+Ruhl+Libre|Judson|Leckerli+One|Noto+Sans|Noto+Serif|Permanent+Marker|Shrikhand');
+
+* {
+	margin: 0 auto;
+	box-sizing: border-box;	
+}
+
+body {
+	background: #F2FFF6;
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 1em;
+	overflow-x: hidden;
+}
+
+.hero {
+	/* height adjusted and position: relative  */
+	height: 50.000em;
+	max-width: 100%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	overflow: hidden;
+	position: relative;
+}
+
+.hero img {
+ 	-webkit-transition: opacity 1s ease-in-out;
+	 -moz-transition: opacity 1s ease-in-out;
+	 -o-transition: opacity 1s ease-in-out;
+	 transition: opacity 1s ease-in-out;
+	 max-width: 100%;
+	 position: absolute;  
+	 display: inline-block;
+	 overflow: hidden;
+}
+
+.hero img.top:hover {
+     opacity:0;
+}
+
+
+nav {
+	width: 100%;
+	position: absolute;
+	padding: 0;
+	margin: auto;
+	top: 0;
+	right: 2em;
+
+}
+
+nav a {
+	text-decoration: none;
+	font-family: 'Noto Serif', serif;
+	font-size: 2em;
+	font-weight: bolder;
+	color: white;
+	display: inline-block;
+	padding: 0;
+	float: right;
+}
+
+.clearfix:nav {
+	visibility: hidden;
+	display: block;
+	content: "";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+
+ul {
+	list-style: none;
+}
+
+li .mini {
+	font-size: 2em;
+	background-color: black;
+	border-style: solid 1em black;
+	margin-left: 1em;
+	padding: .4em .5em .1em .5em;
+	display: inline-block;
+	list-style: none;
+}
+
+li .mini:hover{
+	font-size: 2em;
+	color: black;
+	background-color: white;
+	border-style: solid 1em white;
+	padding: .4em .5em .1em .5em;
+	list-style: none;
+}
+
+
+.signature {
+	width: 43%;
+	padding: 1em 0 2em 0;
+	padding-left: 2em;
+}
+
+a {
+	text-decoration: none;
+	font-family: 'Permanent Marker', cursive;
+	font-size: 1em;
+	font-weight: bold;
+	color: #000000;
+}
+
+p a:hover  {
+	font-size: .8em;
+}
+
+
+p {
+	font-family: 'Noto Sans', sans-serif;
+	text-transform: none;
+	font-size: 1em;
+	font-weight: normal;
+	margin: auto;
+	padding: 0 1em 1em 0;
+
+}
+
+
+#blurb {
+	/* changed the style to align the paragraph in the center */
+	width: 80%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+    line-height: 1.6em;
+    padding: 3em 0;
+}
+
+
+h2 {
+	font-size: 2.8em;
+	font-weight: bolder;
+	color: #000000;
+
+}
+
+
+#about {
+	font-family: 'Noto Serif', serif;
+	font-size: 1.2em;
+	font-weight: normal;
+	color: #000000;
+	padding: 1em 1em 3em 2em;
+
+}
+
+
+#right {
+    padding: 0 .5em 1em 0em;
+    float: right;   
+    width: 48%;
+
+}
+
+
+#left {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 48%;
+}
+
+
+.portrait {
+	width: 100%;
+	padding: 0;
+	
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+
+#work {
+	width: 100%;
+	max-width: none;
+	height: auto;
+	font-family: 'Noto Serif', serif;
+	font-size: 1.2em;
+	font-weight: normal;
+	color: #000000;
+	margin-top: 2em;
+	padding: 1em 1em 3em 2em;
+
+}
+
+.chocolat-parent {
+    width:110vw !important;
+    display: block;
+    text-align: center;
+    object-fit: cover;
+    position: relative;
+    left: -4em;
+    padding-left: 0;
+    padding-right: 0;
+
+    }
+}
+
+
+.chocolat-image {
+	width: 100%;
+	margin: .1em .2em 0;
+	display: block;
+	text-align: center;
+	object-fit: cover;
+
+}
+
+.chocolat-parent a img:hover {
+	font-size: 0;
+	border-style: none;
+	border: none;
+}
+
+
+
+.footer {
+	font-family: 'Noto Sans', sans-serif;
+	font-size: 1em;
+	font-weight: normal;
+	width: 48%;
+	position: relative;
+	margin: 0 auto;
+	top: 1em;
+	display: inline-block;
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 40%;
+    -webkit-margin-end: 40%;
+}
+
+
+@media only screen and (max-width: 770px) {
+
+nav {
+	position: absolute;
+	width: 100%;
+	padding: 0;
+	margin-right: .5em;
+	top: 0;
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	margin: auto 0;
+}
+
+.hero {
+	max-width: 100%;
+	min-width: 100%;
+	height: 25.000em;
+	margin: 0;
+}
+
+
+.signature {
+	width: 60%;
+	margin-top: 3.1em;
+	padding: 1em 0 2em 0;
+	padding-left: 2em;
+}
+
+
+#blurb {
+	width: 80%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+    line-height: 1.6em;
+    padding-top: .5em;
+}
+
+#left {
+	float: none;
+	width: 95%;
+	text-align: center;
+
+}
+
+#right {
+	float: none;
+	width: 95%;
+	margin: 0 auto;
+	margin-top: 1em;
+	text-align: center;
+}
+
+#work {
+	text-align: center;
+	margin: 0 auto;
+}
+
+h2 {
+	text-align: center;
+}
+
+
+.chocolat-parent {
+ 	width:124vw !important;
+    display: block;
+    text-align: center;
+    object-fit: cover;
+    position: relative;
+    left: -4.0em;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+.chocolat-image {
+	width: 100%;
+	object-fit: cover;
+
+	
+}
+
+.chocolat-parent a {
+	object-fit: cover;
+	width: 100%;
+}
+
+
+.footer {
+	font-size: .8em;
+	-webkit-margin-start: 28%;
+    -webkit-margin-end: 28%;
+
+
+}
+
+
+
+}
+
+
+
+
