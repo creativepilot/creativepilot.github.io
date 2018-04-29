@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Bungee+Shade|Convergence|Cormorant+Infant|Fjord+One|Frank+Ruhl+Libre|Judson|Leckerli+One|Noto+Sans|Noto+Serif|Permanent+Marker|Shrikhand');
+@import url('https://fonts.googleapis.com/css?family=Gothic+A1:100,200,300,400,500,600,700,800,900|Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Oswald:200,300,400,500,600,700');
 
 * {
 	margin: 0 auto;
@@ -6,14 +7,16 @@
 }
 
 body {
-	background: #F2FFF6;
-	font-family: 'Noto Sans', sans-serif;
+	background: white;
+	font-family: 'Gothic A1', sans-serif;
+	font-weight: 200;
 	font-size: 1em;
 	overflow-x: hidden;
 }
 
 .hero {
 	/* height adjusted and position: relative  */
+	margin-top: 4em;
 	height: 50.000em;
 	max-width: 100%;
 	background-repeat: no-repeat;
@@ -50,10 +53,11 @@ nav {
 
 nav a {
 	text-decoration: none;
-	font-family: 'Noto Serif', serif;
+	font-family: 'Oswald', serif;
 	font-size: 2em;
-	font-weight: bolder;
-	color: white;
+	text-transform: uppercase;
+	font-weight: 400;
+	color: #000000;
 	display: inline-block;
 	padding: 0;
 	float: right;
@@ -74,8 +78,6 @@ ul {
 
 li .mini {
 	font-size: 2em;
-	background-color: black;
-	border-style: solid 1em black;
 	margin-left: 1em;
 	padding: .4em .5em .1em .5em;
 	display: inline-block;
@@ -84,9 +86,7 @@ li .mini {
 
 li .mini:hover{
 	font-size: 2em;
-	color: black;
-	background-color: white;
-	border-style: solid 1em white;
+	color: grey;
 	padding: .4em .5em .1em .5em;
 	list-style: none;
 }
@@ -100,9 +100,10 @@ li .mini:hover{
 
 a {
 	text-decoration: none;
-	font-family: 'Permanent Marker', cursive;
+	text-transform: uppercase;
+	font-family: 'Oswald', serif;
 	font-size: 1em;
-	font-weight: bold;
+	font-weight: 400;
 	color: #000000;
 }
 
@@ -112,10 +113,10 @@ p a:hover  {
 
 
 p {
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Gothic A1', sans-serif;
 	text-transform: none;
 	font-size: 1em;
-	font-weight: normal;
+	font-weight: 200;
 	margin: auto;
 	padding: 0 1em 1em 0;
 
@@ -124,6 +125,8 @@ p {
 
 #blurb {
 	/* changed the style to align the paragraph in the center */
+	font-family: 'Gothic A1', sans-serif;
+	font-weight: 200;
 	width: 80%;
 	text-align: center;
 	display: block;
@@ -134,19 +137,25 @@ p {
 
 
 h2 {
-	font-size: 2.8em;
-	font-weight: bolder;
+	font-family: 'Oswald', serif;
+	font-size: 1em;
+	text-transform: uppercase;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	font-size: 2.5em;
+	font-weight: 400;
 	color: #000000;
+	text-align: center;
 
 }
 
 
 #about {
-	font-family: 'Noto Serif', serif;
-	font-size: 1.2em;
-	font-weight: normal;
+	font-family: 'Oswald', serif;
+	font-size: 1em;
+	font-weight: 400;
 	color: #000000;
-	padding: 1em 1em 3em 2em;
+	padding: 3em 3em 3em 3em;
 
 }
 
@@ -160,6 +169,10 @@ h2 {
 
 
 #left {
+	font-family: 'Oswald', sans-serif;
+	font-size: .7em;
+	font-weight: 200;
+	color: #000000;
     padding: 0;
     margin: 0;
     float: left;
@@ -188,12 +201,13 @@ h2 {
 	width: 100%;
 	max-width: none;
 	height: auto;
-	font-family: 'Noto Serif', serif;
-	font-size: 1.2em;
-	font-weight: normal;
+	font-family: 'Oswald', serif;
+	font-size: 1em;
+	font-weight: lighter;
+	text-align: center;
 	color: #000000;
 	margin-top: 2em;
-	padding: 1em 1em 3em 2em;
+	padding: 3em 3em 3em 3em;
 
 }
 
@@ -229,9 +243,10 @@ h2 {
 
 
 .footer {
-	font-family: 'Noto Sans', sans-serif;
+	font-family: 'Gothic A1', sans-serif;
 	font-size: 1em;
-	font-weight: normal;
+	color: #000000;
+	font-weight: 200;
 	width: 48%;
 	position: relative;
 	margin: 0 auto;
@@ -243,6 +258,38 @@ h2 {
     -webkit-margin-end: 40%;
 }
 
+@media only screen and (max-width: 1280px){
+	
+	.chocolat-parent {
+ 	width:125vw !important;
+    display: block;
+    text-align: center;
+    object-fit: cover;
+    position: relative;
+    left: -8.0em;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+}
+
+@media only screen and (max-width: 815px){
+
+
+	.chocolat-parent {
+ 	width:116vw !important;
+    display: block;
+    text-align: center;
+    object-fit: cover;
+    position: relative;
+    left: -4.0em;
+    padding-left: 0;
+    padding-right: 0;
+
+}
+
+
+}
 
 @media only screen and (max-width: 770px) {
 
@@ -261,10 +308,10 @@ nav a {
 }
 
 .hero {
+	margin-top: 4em;
 	max-width: 100%;
 	min-width: 100%;
 	height: 25.000em;
-	margin: 0;
 }
 
 
@@ -311,12 +358,12 @@ h2 {
 
 
 .chocolat-parent {
- 	width:124vw !important;
+ 	width:125vw !important;
     display: block;
     text-align: center;
     object-fit: cover;
     position: relative;
-    left: -4.0em;
+    left: -8.0em;
     padding-left: 0;
     padding-right: 0;
 
