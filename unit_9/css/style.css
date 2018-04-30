@@ -412,7 +412,7 @@ nav a {
 }
 
 li .mini {
-	margin-left: 1em;
+	margin-left: .5em;
 	margin-right: 1em;
 }
 
@@ -441,6 +441,51 @@ li .mini {
 
 }
 
+@media only screen and (max-width: 375px) {
+
+nav {
+	position: absolute;
+	width: 100%;
+	padding: 0;
+	margin-right: .5em;
+	top: 0;
+	display: inline-block;
+}
+
+nav a {
+	display: inline-block;
+	margin: auto 0;
+}
+
+li .mini {
+	margin-left: .5em;
+	margin-right: .5em;
+}
+
+.hero {
+	height: 23.000em;
+}
+
+#blurb {
+	width: 80%;
+	text-align: center;
+	display: block;
+	margin: 0 auto;
+    line-height: 1.6em;
+    padding-top: .5em;
+}
+
+.chocolat-parent {
+ 	width:125vw !important;
+    display: block;
+    text-align: center;
+    object-fit: cover;
+    position: relative;
+    left: -6.0em;
+    padding-left: 0;
+    padding-right: 0;
+
+}
 
 }
 
