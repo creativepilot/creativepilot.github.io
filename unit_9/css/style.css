@@ -416,6 +416,7 @@ li .mini {
 }
 
 .hero {
+	max-width: 100%;
 	height: 40.000em;
 }
 
@@ -440,7 +441,7 @@ li .mini {
 
 }
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 577px) and (min-width: 400px) {
 
 nav {
 	position: absolute;
@@ -462,6 +463,7 @@ li .mini {
 }
 
 .hero {
+	max-width: 100%;
 	height: 23.000em;
 }
 
@@ -503,11 +505,12 @@ nav a {
 }
 
 li .mini {
-	margin-left: .5em;
+	margin-left: .4em;
 	margin-right: .5em;
 }
 
 .hero {
+	max-width: 100%;
 	height: 23.000em;
 }
 
