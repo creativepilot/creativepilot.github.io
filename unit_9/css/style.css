@@ -279,6 +279,7 @@ h2 {
     padding-right: 0;
 }
 
+
 @media only screen and (max-width: 1280px){
 	
 	.hero {
@@ -298,6 +299,11 @@ h2 {
     left: -8.0em;
     padding-left: 0;
     padding-right: 0;
+}
+
+.footer {
+    -webkit-margin-start: 45%;
+    -webkit-margin-end: 40%;
 }
 
 }
@@ -536,17 +542,6 @@ li .mini {
 }
 
 .footer {
-	font-family: 'Gothic A1', sans-serif;
-	font-size: 1em;
-	color: #000000;
-	font-weight: 200;
-	width: 48%;
-	position: relative;
-	margin: 0 auto;
-	top: 1em;
-	display: inline-block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
     -webkit-margin-start: 28%;
     -webkit-margin-end: 40%;
 }
@@ -613,17 +608,6 @@ li .mini {
 }
 
 .footer {
-	font-family: 'Gothic A1', sans-serif;
-	font-size: 1em;
-	color: #000000;
-	font-weight: 200;
-	width: 48%;
-	position: relative;
-	margin: 0 auto;
-	top: 1em;
-	display: inline-block;
-    -webkit-margin-before: 1em;
-    -webkit-margin-after: 1em;
     -webkit-margin-start: 28%;
     -webkit-margin-end: 40%;
 }
